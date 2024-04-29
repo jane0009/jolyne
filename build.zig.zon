@@ -1,0 +1,16 @@
+.{
+    .name = "jolyne",
+    .version = "0.0.1",
+    .minimum_zig_version = "0.12.0",
+    .dependencies = .{
+      .jolibs = .{
+        .path = "jolibs"
+      }
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "readme.md",
+    },
+}
